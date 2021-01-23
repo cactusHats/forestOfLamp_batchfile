@@ -1,5 +1,4 @@
 rem forestOfLamp起動用バッチファイル
-rem @echo off
 
 rem forestOfLamp_ledControlを起動
 start "" "C:\Users\Masashi Seki\source\repos\forestOfLamp_ledControl\forestOfLamp_ledControl\bin\forestOfLamp_ledControl_debug.exe"
@@ -10,4 +9,4 @@ start "" "C:\Users\Masashi Seki\source\repos\forestOfLamp_sound\forestOfLamp_sou
 rem forestOfLamp_MySQLを起動
 start "" "C:\Users\Masashi Seki\source\repos\forestOfLamp_MySQL\forestOfLamp_MySQL\bin\forestOfLamp_MySQL_debug.exe"
 
-sleep 3
+powershell sleep 3
